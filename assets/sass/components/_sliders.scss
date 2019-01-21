@@ -1,0 +1,19 @@
+.return-sliders {
+  pg-slider {
+    div.pg-slider-rail {
+      height: 8px;
+    }
+    div.pg-slider-track {
+      height: 8px;
+      border-radius: 4px;
+    }
+    .show {
+      opacity: 1;
+      top: -50px !important;
+      left: -22px !important;
+    }
+    div.tooltip-inner {
+      background-color: #6d5cae;
+    }
+  }
+}

@@ -1,13 +1,16 @@
 .details-tabs {
   &.tab-wrapper {
-    &.tab-horizontal .nav-tabs-wrapper .nav-wrap:after {
+    &.tab-horizontal > pg-tabs-nav > .nav-tabs-wrapper > .nav-wrap:after {
       border-bottom: 2px solid #6d5cae !important;
     }
-    .tab-content-wrapper {
+    > .tab-content-wrapper {
       padding: 15px 0;
+      .tab-content .slide-left .animated {
+        margin-left: 100% !important;
+      }
     }
   }
-  .nav-tabs-simple {
+  > pg-tabs-nav > .nav-tabs-wrapper > .nav-wrap > .nav-tabs-simple {
     .active-bar {
       display: none !important;
     }
@@ -82,13 +85,13 @@
   }
 
   @media (max-width: 768px) {
-    &.tab-wrapper .tab-content-wrapper {
+    &.tab-wrapper > .tab-content-wrapper {
       padding: 15px;
     }
     .nav-tabs-navigator {
       display: none;
     }
-    .nav-tabs-simple {
+    pg-tabs-nav > .nav-tabs-wrapper > .nav-wrap > .nav-tabs-simple {
       display: flex;
       .nav-item {
         flex-grow: 1;
@@ -138,29 +141,27 @@
   }
 
   .nav-tabs-simple {
-    
-    li:nth-child(2){ 
-      a{
-        border-bottom: 2px solid #F8D053 !important;
-      &.active{
-           background-color: #10CFBD !important;
-           border:none !important;
-           border-bottom: 2px solid #10CFBD  !important;
-         }
-       }
-   }
-
- 
-   li:last-child{ 
-     a{
-      border-bottom: 2px solid #10CFBD !important;
-     &.active{
-          background-color: #F8D053 !important ;
-          border:none !important;
-          border-bottom: 2px solid #F8D053 !important;
+    li:nth-child(2) {
+      a {
+        border-bottom: 2px solid #f8d053 !important;
+        &.active {
+          background-color: #10cfbd !important;
+          border: none !important;
+          border-bottom: 2px solid #10cfbd !important;
         }
       }
-  }
+    }
+
+    li:last-child {
+      a {
+        border-bottom: 2px solid #10cfbd !important;
+        &.active {
+          background-color: #f8d053 !important ;
+          border: none !important;
+          border-bottom: 2px solid #f8d053 !important;
+        }
+      }
+    }
     .active-bar {
       display: none !important;
     }
@@ -191,7 +192,7 @@
             display: initial;
           }
           svg {
-            width: 20px; 
+            width: 20px;
             height: 20px;
             position: relative;
             top: 1px;
@@ -273,6 +274,208 @@
 
 // Comparison tabs end -------------------------------
 
+// Offerings main tab --------------------------------
+
+.offerings-main-tabs {
+  &.tab-wrapper {
+    &.tab-horizontal > pg-tabs-nav > .nav-tabs-wrapper > .nav-wrap:after {
+      border-bottom: 2px solid #6d5cae !important;
+    }
+    > .tab-content-wrapper {
+      padding: 15px 0;
+      .tab-content .slide-left .animated {
+        margin-left: 100% !important;
+      }
+    }
+  }
+  > pg-tabs-nav > .nav-tabs-wrapper > .nav-wrap > .nav-tabs-simple {
+    .active-bar {
+      display: none !important;
+    }
+    li {
+      .ng-star-inserted {
+        padding-left: 0px !important;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        min-width: 150px;
+        background-color: #fff !important;
+        border: 1px solid #e6e6e6 !important;
+        border-bottom: 0 !important;
+        border-right: 0 !important;
+        padding: 20px 15px;
+        font-size: 14px;
+        color: #909090;
+        letter-spacing: initial;
+        text-transform: none;
+        line-height: initial;
+        font-weight: 400;
+        .tab-icon {
+          &.show-active {
+            display: none;
+          }
+          &.hide-active {
+            display: initial;
+          }
+          svg {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            top: 1px;
+          }
+        }
+        span {
+          text-align: center;
+        }
+        &.active {
+          font-family: $helveticaBold;
+          background-color: #6d5cae !important;
+          border-color: #6d5cae !important;
+          color: #fff !important;
+          font-size: 16px;
+          font-weight: bold;
+          &:hover {
+            background-color: #8a7dbe;
+            border-color: #8a7dbe;
+            color: #fff;
+          }
+          .tab-icon {
+            &.show-active {
+              display: initial;
+            }
+            &.hide-active {
+              display: none;
+            }
+          }
+          span {
+            font-family: $helveticaBold;
+          }
+        }
+        .fa {
+          margin-right: 7px;
+          font-size: 18px;
+        }
+      }
+      &:last-child > a {
+        border-right: 1px solid #e6e6e6 !important;
+
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    &.tab-wrapper > .tab-content-wrapper {
+      padding: 15px;
+    }
+    .nav-tabs-navigator {
+      display: none;
+    }
+    pg-tabs-nav > .nav-tabs-wrapper > .nav-wrap > .nav-tabs-simple {
+      display: flex;
+      .nav-item {
+        flex-grow: 1;
+        width: 25%;
+        a {
+          min-width: auto;
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          font-size: 12px;
+          padding: 20px 5px;
+          .tab-icon {
+            margin: 0;
+            margin-bottom: 5px;
+          }
+          .fa {
+            margin: 0;
+            margin-bottom: 5px;
+          }
+          &.active {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Offerings main tab end ----------------------------
+
+// Offerings tab ---------------
+
+.offerings-tabs {
+  &.tab-wrapper {
+    &.tab-vertical > pg-tabs-nav > .nav-tabs-wrapper > .nav-wrap:after {
+      border: none !important;
+    }
+    > .tab-content-wrapper {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }
+  > pg-tabs-nav > .nav-tabs-wrapper > .nav-wrap > .nav-tabs-simple {
+    .active-bar {
+      display: none !important;
+    }
+    li {
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        min-width: 150px;
+        background-color: #fff !important;
+        border: none !important;
+        // border-bottom: 1px solid #909090 !important;
+        padding: 0px;
+        font-size: 14px;
+        color: #909090;
+        letter-spacing: initial;
+        text-transform: none;
+        line-height: initial;
+        font-weight: 400;
+        .tab-icon {
+          &.show-active {
+            display: none;
+          }
+          &.hide-active {
+            display: initial;
+          }
+          svg {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            top: 1px;
+          }
+        }
+        span {
+          text-align: center;
+        }
+        .fa {
+          margin-right: 7px;
+          font-size: 18px;
+        }
+      }
+      &:last-child > a {
+        // border-right: 1px solid #e6e6e6 !important;
+        border: none !important;
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        // border-style: inset;
+        // border-width: 1px;
+      }
+    }
+  }
+}
+
+// Offerings tab end
+
 .tab-details {
   margin-top: 15px;
   .card-wrapper {
@@ -295,7 +498,7 @@
     .thumbnail {
       position: relative;
       .image {
-        background: url('/assets/img/walkthrough.jpg') center center no-repeat;
+        background: url("/assets/img/walkthrough.jpg") center center no-repeat;
         background-size: cover !important;
         height: 200px;
         width: 100%;
@@ -436,8 +639,25 @@
         margin-bottom: 10px;
         .card-column {
           padding: 10px;
-          &:nth-child(even) {
+          &:nth-child(odd) {
             background-color: #fafafa;
+          }
+        }
+      }
+      .card-header {
+        background: #f7f7f7;
+        display: flex;
+        border: 0;
+        padding: 10px;
+        span {
+          font-size: 13px;
+          font-weight: 600;
+          color: #626262;
+          &:first-child {
+            flex-grow: 1;
+          }
+          &.width-100 {
+            width: 100px;
           }
         }
       }
@@ -468,6 +688,9 @@
             &.text-bold {
               font-family: $helveticaBold;
               font-weight: bold;
+            }
+            &.text-right {
+              text-align: right;
             }
             .label-value {
               display: flex;

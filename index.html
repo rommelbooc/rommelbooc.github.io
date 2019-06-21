@@ -1,120 +1,229 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Partbnb</title>
-    <base href="/" />
+<html>
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"
-    />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta
-      name="description"
-      content="Now everyone can own a part of paradise. Our marketplace allows you to buy parts of a Caribbean vacation rental, earn income and capital growth!"
-    />
+<head>
+  <title>WoofWoof</title>
+  <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" type="text/css">
 
-    <link
-      rel="prefetch"
-      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700"
-      as="font"
-      crossorigin="anonymous"
-    />
+</head>
 
-    <!-- Google Tag Manager -->
-    <script>
-      (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-MNLFQXS');
-    </script>
-    <!-- End Google Tag Manager -->
+<body>
+  <div id="header" class="container">
+    <div class="wrapper">
+      <img class="logo" src="assets/woof-logo.jpg">
+      <div class="logo-text">Woof! Woof!</div>
+    </div>
+  </div>
+  <div id="navbar" class="container">
+    <div class="wrapper">
+      <div class="nav-button">Home</div>
+      <div class="nav-button">Events</div>
+      <div class="nav-button">About Us</div>
+      <div class="nav-button">Donate</div>
+    </div>
+  </div>
+  <div id="banner" class="container">
+    <div class="wrapper">
+      <div class="banner-quote-wrapper">
+        <p class="banner-quote-text">" A dog is the only thing on earth that loves you more than you love yourself. "
+        </p>
+        <p class="banner-quote-author">Josh Billings</p>
+      </div>
+      <div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <span id="slider-image-4"></span>
+        <span id="slider-image-5"></span>
+        <div class="image-holder">
+          <div class="slider-image" style="background-image:url('assets/banner1.jpg')"></div>
+          <div class="slider-image" style="background-image:url('assets/banner2.jpg')"></div>
+          <div class="slider-image" style="background-image:url('assets/banner3.jpg')"></div>
+          <div class="slider-image" style="background-image:url('assets/banner4.jpg')"></div>
+          <div class="slider-image" style="background-image:url('assets/banner5.jpg')"></div>
+        </div>
+        <div class="button-holder">
+          <a href="#slider-image-1" class="slider-change"></a>
+          <a href="#slider-image-2" class="slider-change"></a>
+          <a href="#slider-image-3" class="slider-change"></a>
+          <a href="#slider-image-4" class="slider-change"></a>
+          <a href="#slider-image-5" class="slider-change"></a>
+        </div>
+      </div>
+      <div class="org-text-wrapper">
+        <bold>Woof! Woof! </bold> is organization that aims to help abandoned, street and abused dogs.
+        The organization
+        also aims to help our fostered mans bestfriend to find new home. To know more our advocacy please contact
+        <bold>( +63 ) 9502904008</bold>
+      </div>
+    </div>
+  </div>
+  <div id="content" class="container">
+    <div class="wrapper">
+      <div id="news">
+        <p class="news-header">Dog News</p>
+        <div class="news-container">
+          <div class="news-wrapper">
+            <div class="news-title">Greyhound racing 'outdated and cruel'</div>
+            <p class="news-date">18 June 2019</p>
+            <div class="news-image" style="background-image:url('assets/news4.jpg')"></div>
+            <div class="news-text-wrapper">
+              <p class="news-author">Connor Gillies</p>
+              <p class="news-author-ref">The Nine reporter</p>
 
-    <!-- Google Analytics -->
-    <script>
-      (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        (i[r] =
-          i[r] ||
-          function() {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        'script',
-        'https://www.google-analytics.com/analytics.js',
-        'ga'
-      );
+              <p class="news-preview-content">Scottish campaigners urge a ban as UK-wide figures on the number of dog
+                deaths are published.</p>
 
-      ga('create', 'UA-129052544-1', 'auto');
-    </script>
-    <!-- End Google Analytics -->
+              <a href="https://www.bbc.com/news/uk-scotland-48661853?intlink_from_url=https://www.bbc.com/news/topics/cl866rrqjz4t/dogs&link_location=live-reporting-story"
+                class="read-more-button">Read More</a>
+            </div>
+          </div>
+          <div class="news-wrapper">
+            <div class="news-title">Dogs' eyes evolve to appeal to humans</div>
+            <p class="news-date">18 June 2019</p>
+            <div class="news-image" style="background-image:url('assets/news1.jpg')"></div>
+            <div class="news-text-wrapper">
+              <p class="news-author">Sean Coughlan</p>
+              <p class="news-author-ref">BBC News family and education correspondent</p>
 
-    <!-- Overidding Global Style CSS -->
-    <style>
-      .modal-backdrop {
-        background-color: #332b53 !important;
-      }
-      .modal-backdrop.show {
-        opacity: 0.9 !important;
-      }
-    </style>
-  <link rel="stylesheet" href="styles.7de5a437b731aeb1c2c7.css"></head>
+              <p class="news-preview-content">Scientists have found a muscle that allows dogs to make 'puppy eyes' and
+                bond with humans.</p>
 
-  <body>
-    <app-root></app-root>
+              <a href="https://www.bbc.com/news/education-48665618?intlink_from_url=https://www.bbc.com/news/topics/cl866rrqjz4t/dogs&link_location=live-reporting-story"
+                class="read-more-button">Read More</a>
+            </div>
+          </div>
+          <div class="news-wrapper">
+            <div class="news-title">Owning a dog is influenced by our genetic make-up</div>
+            <p class="news-date">17 June 2019</p>
+            <div class="news-image" style="background-image:url('assets/news5.jpg')"></div>
+            <div class="news-text-wrapper">
+              <p class="news-author">Uppsala University</p>
+              <p class="news-author-ref">School Research</p>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-      <iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-MNLFQXS"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden"
-      ></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
+              <p class="news-preview-content">Scientists have studied the heritability of dog ownership using
+                information from 35,035 twin pairs from the Swedish Twin Registry.</p>
 
-    <!-- Start of LiveChat (www.livechatinc.com) code -->
-    <script type="text/javascript">
-      window.__lc = window.__lc || {};
-      window.__lc.license = 10388622;
-      (function() {
-        var lc = document.createElement('script');
-        lc.type = 'text/javascript';
-        lc.async = true;
-        lc.src =
-          ('https:' == document.location.protocol ? 'https://' : 'http://') +
-          'cdn.livechatinc.com/tracking.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(lc, s);
-      })();
-    </script>
-    <noscript>
-      <a href="https://www.livechatinc.com/chat-with/10388622/">
-        Chat with us
-      </a>
-      , powered by
-      <a
-        href="https://www.livechatinc.com/?welcome"
-        rel="noopener"
-        target="_blank"
-      >
-        LiveChat
-      </a>
-    </noscript>
-  <script type="text/javascript" src="runtime.ce7f0fd1707aa33b0609.js"></script><script type="text/javascript" src="polyfills.004ae3cfac3cb841f08d.js"></script><script type="text/javascript" src="styles.1b56c10400bd65a852b3.js"></script><script type="text/javascript" src="scripts.66e2275672787586799a.js"></script><script type="text/javascript" src="main.92c46ae9b8aa3387b995.js"></script></body>
+              <a href="https://www.sciencedaily.com/releases/2019/05/190517081636.htm" class="read-more-button">Read
+                More</a>
+            </div>
+          </div>
+          <div class="news-wrapper">
+            <div class="news-title">Slimmed down Bopper finds forever home</div>
+            <p class="news-date">6 June 2019</p>
+            <div class="news-image" style="background-image:url('assets/news2.jpg')"></div>
+            <div class="news-text-wrapper">
+              <p class="news-author">Millicent Cooke</p>
+              <p class="news-author-ref">Broadcast Journalist</p>
+
+              <p class="news-preview-content">Bopper the Whopper, once dubbed "Britain's fattest dog", has shed pounds
+                and been rehomed.</p>
+
+              <a href="https://www.bbc.com/news/uk-england-devon-48503083?intlink_from_url=https://www.bbc.com/news/topics/cl866rrqjz4t/dogs&link_location=live-reporting-story"
+                class="read-more-button">Read More</a>
+            </div>
+          </div>
+          <div class="news-wrapper">
+            <div class="news-title">Man detained for 'illegal' dog names</div>
+            <p class="news-date">14 May 2019</p>
+            <div class="news-image" style="background-image:url('assets/news3.png')"></div>
+            <div class="news-text-wrapper">
+              <p class="news-author">News from Elsewhere...</p>
+              <p class="news-author-ref">...as found by BBC Monitoring</p>
+
+              <p class="news-preview-content">A Chinese man has landed 10 days in detention for naming his dogs after
+                law
+                enforcement personnel.</p>
+
+              <a href="https://www.bbc.com/news/blogs-news-from-elsewhere-48269181?intlink_from_url=https://www.bbc.com/news/topics/cl866rrqjz4t/dogs&link_location=live-reporting-story"
+                class="read-more-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="adopt-me">
+        <p class="adopt-me-header">Adopt Me!</p>
+        <p class="adopt-me-sub-header">Featured Pets</p>
+        <div class="adopt-me-container">
+          <div class="adopt-me-wrapper">
+            <div class="adopt-me-image" style="background-image:url('assets/pet1.jpg')"></div>
+            <div class="adopt-me-text-container">
+              <p class="pet-name">Scrappy Doo</p>
+              <p class="pet-gender">Male, Young</p>
+              <p class="pet-location">Los Angeles, CA</p>
+              <a class="pet-about-me-button"
+                href="https://www.adoptapet.com/pet/11308970-los-angeles-california-chihuahua">About Me</a>
+            </div>
+          </div>
+          <div class="adopt-me-wrapper">
+            <div class="adopt-me-image" style="background-image:url('assets/pet2.jpg')"></div>
+            <div class="adopt-me-text-container">
+              <p class="pet-name">Tyson</p>
+              <p class="pet-gender">Male, Adult</p>
+              <p class="pet-location">Los Angeles, CA</p>
+              <a class="pet-about-me-button"
+                href="https://www.adoptapet.com/pet/23532337-los-angeles-california-siberian-husky">About Me</a>
+            </div>
+          </div>
+          <div class="adopt-me-wrapper">
+            <div class="adopt-me-image" style="background-image:url('assets/pet3.jpg')"></div>
+            <div class="adopt-me-text-container">
+              <p class="pet-name">Foxy</p>
+              <p class="pet-gender">Female, Adult</p>
+              <p class="pet-location">Los Angeles, CA</p>
+              <a class="pet-about-me-button"
+                href="https://www.adoptapet.com/pet/24390473-los-angeles-california-terrier-unknown-type-medium">About
+                Me</a>
+            </div>
+          </div>
+          <div class="adopt-me-wrapper">
+            <div class="adopt-me-image" style="background-image:url('assets/pet4.jpg')"></div>
+            <div class="adopt-me-text-container">
+              <p class="pet-name">Rocco</p>
+              <p class="pet-gender">Male, Young</p>
+              <p class="pet-location">Los Angeles, CA</p>
+              <a class="pet-about-me-button"
+                href="https://www.adoptapet.com/pet/19675005-los-angeles-california-staffordshire-bull-terrier">About
+                Me</a>
+            </div>
+          </div>
+          <div class="adopt-me-wrapper">
+            <div class="adopt-me-image" style="background-image:url('assets/pet5.jpg')"></div>
+            <div class="adopt-me-text-container">
+              <p class="pet-name">Remy</p>
+              <p class="pet-gender">Male, Adult</p>
+              <p class="pet-location">Los Angeles, CA</p>
+              <a class="pet-about-me-button"
+                href="https://www.adoptapet.com/pet/24000107-los-angeles-california-chihuahua">About
+                Me</a>
+            </div>
+          </div>
+          <div class="adopt-me-wrapper">
+            <div class="adopt-me-image" style="background-image:url('assets/pet6.jpg')"></div>
+            <div class="adopt-me-text-container">
+              <p class="pet-name">Buffy</p>
+              <p class="pet-gender">Female, Adult</p>
+              <p class="pet-location">Los Angeles, CA</p>
+              <a class="pet-about-me-button"
+                href="https://www.adoptapet.com/pet/24568337-west-hollywood-california-chihuahua">About
+                Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id=footer class="container">
+    <div class="wrapper">
+      <p class="copyright-text">Copyright Reserved 2019</p>
+      <div class="footer-logo-wrapper">
+        <img class="footer-logo-image" src="assets/woof-logo.jpg">
+        <div class="footer-logo-text">Woof! Woof!</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>

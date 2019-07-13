@@ -1,0 +1,297 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.nav-container {
+  height: 50px;
+  background-color: #2A2222;
+  padding: 0 30px;
+}
+
+.nav-right {
+  display: flex;
+  float: right;
+  height: inherit;
+}
+
+.nav-wrapper {
+  height: inherit;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-bussiness-name {
+  float: left;
+  font-family: 'Kaushan Script', cursive;
+  height: calc(100% - 16px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  padding: 0 15px;
+  border-radius: 100px;
+  background-color: black;
+  margin: 8px 15px;
+}
+
+.nav-wrapper:hover {
+  background-color: #73342E;
+}
+
+.container {
+  justify-content: center;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  width: 960px;
+  padding: 90px 30px;
+}
+
+.content p {
+  font-size: 18px;
+}
+
+.slide {
+  background-size: cover;
+  height: 450px;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slideshow-container {
+  max-width: 300vw;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.welcome-text {
+  color: white;
+  font-size: 60px;
+  text-shadow: 2px 2px #2a2222bf;
+  font-weight: bold;
+}
+
+.sitename-text {
+  color: white;
+  font-size: 75px;
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 2px 2px #2a2222bf;
+}
+
+.banner-wrapper {
+  background-color: #2a2222bf;
+  margin-top: 25px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 30px 30px;
+}
+
+.notes-text {
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.banner-list {
+  color: white;
+  font-size: 18px;
+}
+
+.banner-list li {
+  padding: 8px 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #F44336;
+}
+
+.banner-title {
+  color: white;
+  border-bottom: 1px solid white;
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.banner-desc {
+  color: white;
+}
+
+.colored-container {
+  background-color: #2A2222;
+}
+
+.testimony-title {
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimony-text {
+  color: white;
+  font-size: 25px;
+}
+
+.testimony-customer {
+  color: white;
+  font-size: 14px;
+  font-style: italic;
+  text-align: right;
+  padding: 10px 0;
+}
+
+.contact-info-container {
+  width: 40%;
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.cic-logo {
+  color: #202328;
+  font-family: 'Kaushan Script', cursive;
+  padding: 8px 20px;
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.cic-wrapper {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  font-size: 18px;
+}
+
+.cic-wrapper img:nth-child(1) {
+  height: 30px;
+  padding-right: 10px;
+}
+
+.cic-wrapper img:nth-child(2) {
+  height: 25px;
+  padding-right: 5px;
+  padding-left: 60px;
+  cursor: pointer;
+}
+
+.cic-wrapper img:nth-child(3) {
+  height: 25px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+
+.cic-wrapper:nth-child(3) {
+  border-top: 1px solid white;
+  padding: 15px 0;
+}
+
+.footer-container {
+  background-color: #202328;
+}
+
+.footer-container .wrapper {
+  display: flex;
+  padding: 60px 0px;
+}
+
+.footer-wrapper {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px 15px
+}
+
+.fw-title {
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+  font-size: 16px;
+  border-bottom: 1px solid white;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.fw-link p {
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.fw-link p:hover {
+  color: #F44336;
+}
+
+.fb-icon {
+  height: 25px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.youtube-icon {
+  height: 25px;
+  padding: 0 10px;
+  cursor: pointer;
+}

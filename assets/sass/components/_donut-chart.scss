@@ -1,0 +1,53 @@
+.custom-donut-chart {
+  position: relative;
+  height: 40px;
+  width: 45px;
+
+  >.donut-chart {
+    position: absolute;
+    right: 0;
+    top: -3px;
+    z-index: 99;
+
+    >.c-donutchart {
+      >.c-donutchart__legends {
+        display: none !important;
+      }
+    }
+  }
+
+  &.md {
+    height: 55px;
+    width: 60px;
+
+    .capital-icon>svg {
+      width: 14px;
+      position: relative;
+      top: 12px;
+      right: unset;
+      left: 23px;
+    }
+
+    .user-icon>svg {
+      width: 25px;
+      position: relative;
+      top: 15px;
+      right: unset;
+      left: 17px;
+    }
+  }
+
+  .user-icon>svg {
+    width: 17px;
+    position: relative;
+    top: 12px;
+    right: 15px;
+  }
+
+  .capital-icon>svg {
+    width: 14px;
+    position: relative;
+    top: 4px;
+    right: 16px;
+  }
+}

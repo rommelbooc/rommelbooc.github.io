@@ -1,0 +1,243 @@
+.main-logo {
+  cursor: pointer;
+}
+
+.footer {
+  .main-logo svg {
+    width: 134px;
+    height: 34px;
+  }
+}
+
+.icon-md {
+  svg {
+    position: relative;
+    top: 2px;
+  }
+
+  &-1 svg {
+    position: relative;
+    top: 1px;
+  }
+
+  &-3 svg {
+    position: relative;
+    top: 3px;
+  }
+
+  &-4 svg {
+    position: relative;
+    top: 4px;
+  }
+
+  &-5 svg {
+    position: relative;
+    top: 5px;
+  }
+
+  &-6 svg {
+    position: relative;
+    top: 6px;
+  }
+
+  &-7 svg {
+    position: relative;
+    top: 7px;
+  }
+}
+
+.wallet {
+  &-icon {
+    svg {
+      width: 22px;
+      position: relative;
+      top: 3px;
+    }
+  }
+}
+
+.add-property-icon {
+  svg {
+    position: relative;
+    top: 2px;
+    width: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  .mobile-icon {
+    &-time svg {
+      width: 17px;
+      top: 4px;
+    }
+  }
+
+  .wallet-icon svg {
+    width: 20px;
+  }
+
+  .blank-content icon-empty-property {
+    >svg {
+      width: 180px;
+      height: 180px;
+    }
+  }
+}
+
+.confirm-logo {
+  svg {
+    width: 180px;
+    height: 45.6px;
+  }
+
+  @media (max-width: 660px) {
+    svg {
+      width: 139px;
+      height: 35px;
+    }
+  }
+}
+
+.properties-container {
+  .house>svg {
+    width: 15px;
+    height: 10px;
+    // position: relative;
+    // top: 1px;
+    margin-right: 3px;
+  }
+
+  .bed>svg {
+    width: 13px;
+    height: 10px;
+    // position: relative;
+    // top: 1px;
+    margin-right: 3px;
+  }
+
+  .baths>svg {
+    width: 12px;
+    height: 12px;
+    // position: relative;
+    // top: 1px;
+    margin-right: 3px;
+  }
+
+  .area>svg {
+    width: 10px;
+    height: 12px;
+    // position: relative;
+    // top: 1px;
+    margin-right: 3px;
+  }
+
+  .header-button {
+    >.favorite>svg {
+      width: 15px;
+      height: 15px;
+      position: relative;
+      top: 2px;
+    }
+
+    >.share>svg {
+      width: 17px;
+      height: 17px;
+      position: relative;
+      top: 2px;
+    }
+  }
+}
+
+.property-details {
+  .info-top>div>.btn {
+    >.icon {
+      margin-right: 3px;
+
+      svg {
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 3px;
+      }
+    }
+
+    >.favorite>svg {
+      width: 15px;
+      height: 15px;
+      position: relative;
+      top: 3px;
+    }
+
+    >.share>svg {
+      width: 17px;
+      height: 17px;
+      position: relative;
+      top: 2px;
+    }
+  }
+
+  .info-bottom {
+    .house {
+      margin-right: 5px;
+
+      >svg {
+        width: 15px;
+        height: 10px;
+        // position: relative;
+        // top: 1px;
+      }
+    }
+
+    .bed {
+      margin-right: 5px;
+
+      >svg {
+        width: 13px;
+        height: 10px;
+        // position: relative;
+        // top: 1px;
+      }
+    }
+
+    .baths {
+      margin-right: 5px;
+
+      >svg {
+        width: 12px;
+        height: 12px;
+        // position: relative;
+        // top: 1px;
+      }
+    }
+
+    .area {
+      margin-right: 5px;
+
+      >svg {
+        width: 10px;
+        height: 12px;
+        // position: relative;
+        // top: 1px;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .property-overview {
+      >.overview-header>.overview-info>.item>span {
+
+        >.views>svg,
+        >.favorite>svg {
+          width: 11px;
+          height: 11px;
+        }
+      }
+    }
+    .property-info>.property-name>.buttons>.watch{
+      >.icon>svg {
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+}

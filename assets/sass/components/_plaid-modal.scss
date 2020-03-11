@@ -1,0 +1,36 @@
+.plaid-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw !important;
+  max-width: unset;
+  margin: 0;
+  padding: 50px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  .modal-content {
+    position: relative;
+    width: 500px !important;
+    border: 0 !important;
+    .btn-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      font-size: 28px;
+      color: #fff;
+      z-index: 99;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  @media (max-width: 575px) {
+    padding: 10px;
+    > .modal-content {
+      width: 100% !important;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+.card-group {
+  &.horizontal {
+    >.card {
+      >.card-header {
+        >.card-title {
+          >a {
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            >.title-icon {
+              position: relative;
+              top: -1px;
+              margin-right: 7px;
+              display: none;
+
+              &.show {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.property-details {
+  .card-group {
+    >.card {
+      border: 0 !important;
+      border-top: 1px solid #E6E6E6 !important;
+
+      &:last-child {
+        border-bottom: 1px solid #E6E6E6 !important;
+      }
+
+      >.card-header {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        >.card-title {
+          text-transform: none;
+          letter-spacing: normal;
+
+          >a {
+            font-family: $fontRoboto;
+            font-weight: bold;
+            font-size: 15px;
+            color: #2C2C2C !important;
+
+            &.collapsed {
+              font-weight: normal;
+              color: #626262 !important;
+
+              &:after {
+                content: '';
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+              }
+            }
+
+            &:after {
+              content: '';
+              border: solid #F59E51;
+              border-width: 0 2px 2px 0;
+              display: inline-block;
+              padding: 4px;
+              transform: rotate(-135deg);
+              -webkit-transform: rotate(-135deg);
+            }
+          }
+        }
+      }
+
+      >.collapse {
+
+        &.inactive >.card-body {
+          display: none;
+        }
+
+        >.card-body {
+          padding-top: 0;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+      }
+    }
+  }
+}

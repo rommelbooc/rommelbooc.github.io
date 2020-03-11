@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icn-read</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage@2x-Copy-16" transform="translate(-850.000000, -2005.000000)">
+            <g id="Group-9-Copy-4" transform="translate(850.000000, 2005.000000)">
+                <g id="Group-6">
+                    <g id="icn-read">
+                        <path d="M10,0.6 C4.79803752,0.6 0.6,4.79803752 0.6,10 C0.6,15.2019625 4.79803752,19.4 10,19.4 C15.2019625,19.4 19.4,15.2019625 19.4,10 C19.4,4.79803752 15.2019625,0.6 10,0.6 Z" id="Shape" stroke="#F59E51" stroke-width="1.2" fill="#FFFFFF"></path>
+                        <g id="noun_Book_798340" transform="translate(5.000000, 6.000000)" fill="#F59E51" fill-rule="nonzero">
+                            <path d="M0.25,7.8125 L0.3,7.8 C1.5625,7.35 2.9625,7.4875 4.1,8.1875 L4.875,8.675 L4.875,1.175 L4.0875,0.6875 C2.95,-0.0125 1.575,-0.15 0.325,0.3 L0.25,0.325 C0.15,0.3625 0.0875,0.45 0.0875,0.5625 L0.0875,7.7 C0.0875,7.7875 0.1625,7.85 0.25,7.8125 Z" id="Path"></path>
+                            <path d="M9.7375,7.8 L9.75,7.8125 C9.8375,7.8375 9.9125,7.7875 9.9125,7.7 L9.9125,0.55 C9.9125,0.45 9.85,0.35 9.75,0.3125 C8.4625,-0.175 7.0125,-0.0375 5.85,0.7 L5.125,1.175 L5.125,8.675 L5.875,8.2 C7.0375,7.475 8.4625,7.325 9.7375,7.8 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

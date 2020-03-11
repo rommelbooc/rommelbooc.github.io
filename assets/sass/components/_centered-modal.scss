@@ -1,0 +1,143 @@
+.centered-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw !important;
+  max-width: unset;
+  margin: 0;
+  padding: 50px;
+
+  .modal-content {
+    position: relative;
+    width: 500px !important;
+    border: 0 !important;
+
+    .btn-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      font-size: 28px;
+      color: #fff;
+      z-index: 99;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  @media (max-width: 450px) {
+    padding: 10px;
+
+    >.modal-content {
+      width: 100% !important;
+    }
+  }
+}
+
+.filter-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw !important;
+  max-width: unset;
+  margin: 0;
+  padding: 50px;
+  // background: rgba(#F59E51, 0.9) !important;
+  // background: rgba(#0FB6A6, 0.9) !important;
+
+  .modal-content {
+    position: relative;
+    width: 345px !important;
+    border: 0 !important;
+    border-radius: 8px;
+
+    .btn-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      font-size: 24px;
+      color: #7A7A7A;
+      z-index: 99;
+
+      &:hover {
+        color: rgba(#7A7A7A, 0.8);
+      }
+    }
+
+    .buttons-wrapper {
+      margin-bottom: 20px;
+
+      >.button-col {
+        width: 100%;
+        margin-bottom: 15px;
+
+        >.pg-select,
+        >.btn {
+          width: 100%;
+        }
+
+        >.pg-select>.pg-select-selection>.pg-select-selection__rendered>.pg-select-selection-selected-value {
+          font-size: 12px;
+        }
+
+        >.btn {
+          font-family: $fontRoboto;
+          font-size: 12px;
+          color: #F59E51;
+          border-radius: 4px;
+
+          &.show {
+            background: #F59E51;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}
+
+.register-interest-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw !important;
+  max-width: unset;
+  margin: 0;
+  padding: 50px;
+  // background: rgba(#0FB6A6, 0.9) !important;
+
+  .modal-content {
+    position: relative;
+    width: 400px !important;
+    border: 0 !important;
+    border-radius: 8px;
+
+    .btn-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      font-size: 24px;
+      color: #7A7A7A;
+      z-index: 99;
+
+      &:hover {
+        color: rgba(#7A7A7A, 0.8);
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 15px;
+
+    .modal-content {
+      width: 100% !important;
+    }
+  }
+}

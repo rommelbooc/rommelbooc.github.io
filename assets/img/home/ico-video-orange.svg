@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>ico-video-orange</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage@2x-Copy-16" transform="translate(-934.000000, -4509.000000)">
+            <g id="Group-8" transform="translate(934.000000, 4509.000000)">
+                <g id="ico-video-orange">
+                    <path d="M10,0.6 C4.79803752,0.6 0.6,4.79803752 0.6,10 C0.6,15.2019625 4.79803752,19.4 10,19.4 C15.2019625,19.4 19.4,15.2019625 19.4,10 C19.4,4.79803752 15.2019625,0.6 10,0.6 Z" id="Shape" stroke="#F59E51" stroke-width="1.2"></path>
+                    <path d="M13.3245673,10.1834202 L8.87172162,13.2392947 C8.5074287,13.4892996 8.00944188,13.3966509 7.75943694,13.032358 C7.66799243,12.8991103 7.61904762,12.7412917 7.61904762,12.579684 L7.61904762,6.46793504 C7.61904762,6.02610724 7.97721982,5.66793504 8.41904762,5.66793504 C8.58065532,5.66793504 8.73847391,5.71687985 8.87172162,5.80832436 L13.3245673,8.86419884 C13.6888602,9.11420379 13.7815089,9.6121906 13.531504,9.97648352 C13.475836,10.0575997 13.4056835,10.1277522 13.3245673,10.1834202 Z" id="Path" fill="#F59E51"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

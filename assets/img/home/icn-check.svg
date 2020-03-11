@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="10px" viewBox="0 0 11 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icn-check</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage@2x-Copy-16" transform="translate(-531.000000, -4269.000000)">
+            <g id="Group-35" transform="translate(531.000000, 4105.000000)">
+                <g id="icn-check" transform="translate(0.000000, 164.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="11" height="11"></rect>
+                    <path d="M0.183779441,6.37421799 C-0.448960228,5.57914865 0.704859168,4.55691666 1.33759884,5.35198599 L3.64523763,6.94212465 L10.1215142,0.354407327 C10.7542539,-0.440662005 11.3497736,0.240825994 10.7542539,1.03589533 L4.20353734,9.66807665 C3.90577749,10.0845415 3.34747779,10.122402 3.01249796,9.70593709 L0.183779441,6.37421799 L0.183779441,6.37421799 Z" id="Path" fill="#23A79A"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

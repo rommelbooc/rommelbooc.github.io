@@ -1,0 +1,123 @@
+.my-properties {
+  .pg-select {
+    .pg-select-selection {
+      margin: 0 5px;
+    }
+
+    .pg-select-selection-selected-value {
+      font-size: 12px;
+    }
+
+    &.sorts {
+      .pg-select-selection-selected-value {
+        float: right;
+        padding-right: 5px;
+      }
+
+      .pg-select-arrow {
+        right: unset;
+        left: 13px;
+        opacity: 1;
+
+        &:before {
+          content: none;
+        }
+      }
+    }
+
+    &.toggler {
+      .pg-select-selection-selected-value {
+        padding-right: 25px;
+      }
+
+      .pg-select-arrow {
+        opacity: 1;
+
+        &:before {
+          content: none;
+        }
+      }
+    }
+
+    &.pg-display {
+      .pg-select-selection {
+        margin: 0;
+
+        .pg-select-selection-selected-value {
+          font-family: $helveticaBold;
+          font-size: 11px;
+          color: #626262;
+        }
+      }
+    }
+
+    @media (max-width: 991px) {
+      &.properties {
+        >.pg-select-selection {
+          margin: 0;
+          margin-right: 5px;
+        }
+      }
+
+      &.sorts {
+        >.pg-select-selection {
+          margin: 0;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+
+.properties-head-container {
+  .pg-select {
+    &.toggler {
+      &.yellow {
+        >.pg-select-selection {
+          border-color: #F59E51;
+
+          >.pg-select-selection__rendered>.pg-select-selection-selected-value {
+            color: #F59E51;
+          }
+        }
+      }
+    }
+  }
+}
+
+.financial-details-content {
+  .pg-select {
+    &.toggler {
+      &.yellow {
+        >.pg-select-selection {
+          border-color: #F59E51;
+          border-radius: 4px;
+          margin: 0;
+
+          >.pg-select-selection__rendered {
+            line-height: 40px;
+
+            >.pg-select-selection-selected-value {
+              color: #626262;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.pg-select-dropdown-menu {
+  >li {
+    font-size: 12px;
+  }
+}
+
+.my-profile {
+  .pg-select {
+    .pg-select-selection-selected-value {
+      font-size: 12px;
+    }
+  }
+}

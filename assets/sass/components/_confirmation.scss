@@ -1,0 +1,115 @@
+.confirmation {
+  margin: 0;
+  height: 100vh;
+  width: 100vw !important;
+  max-width: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // background: #413768;
+  &.force-background {
+    background-image: linear-gradient(
+      -134deg,
+      #332b53 0%,
+      #463b6d 100%
+    ) !important;
+  }
+  .modal-content {
+    position: relative;
+    height: auto;
+    width: 460px;
+    background: #ffffff;
+    padding: 50px 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .btn-close {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      font-size: 30px;
+      color: #788195;
+      opacity: 0.8;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .icon {
+      display: block;
+      &.hide {
+        display: none;
+      }
+      &.custom {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        > div {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background: #0dad9e;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          > span {
+            font-family: $fontRoboto;
+            font-size: 50px;
+            font-weight: 600;
+            color: #fff;
+          }
+        }
+      }
+    }
+    .title {
+      font-family: $helveticaBold;
+      font-size: 25px;
+      color: #2c2c2c;
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      line-height: 30px;
+    }
+    .desc {
+      font-family: $fontRoboto;
+      font-size: 14px;
+      color: #626262;
+      text-align: center;
+      line-height: 21px;
+      margin-bottom: 15px;
+    }
+    .btn {
+      border-radius: 2px;
+      min-width: 162px;
+      height: 55px;
+      font-family: $helveticaBold;
+      font-size: 16px;
+      padding: 0 20px;
+      margin-top: 10px;
+      &.warning {
+        background: #eead46 !important;
+        border-color: #eead46 !important;
+      }
+      &.cancel {
+        color: rgba(#5e5e5e, 0.8);
+      }
+    }
+    .redirection {
+      margin-top: 10px;
+      font-weight: 600;
+      font-size: 14px;
+      color: #00d0bd;
+    }
+  }
+
+  @media (max-width: 767px) {
+    align-items: flex-start;
+    padding-top: 15px;
+  }
+
+  @media (max-width: 575px) {
+    align-items: flex-start;
+    padding: 10px;
+  }
+}

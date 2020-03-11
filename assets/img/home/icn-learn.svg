@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icn-learn</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage@2x-Copy-16" transform="translate(-765.000000, -4910.000000)">
+            <g id="Group-9-Copy-4" transform="translate(765.000000, 4910.000000)">
+                <g id="Group-6">
+                    <g id="icn-learn">
+                        <path d="M10,0.6 C4.79803752,0.6 0.6,4.79803752 0.6,10 C0.6,15.2019625 4.79803752,19.4 10,19.4 C15.2019625,19.4 19.4,15.2019625 19.4,10 C19.4,4.79803752 15.2019625,0.6 10,0.6 Z" id="Shape" stroke="#F59E51" stroke-width="1.2" fill="#FFFFFF"></path>
+                        <g id="noun_i_2145306" transform="translate(7.000000, 4.000000)" fill="#F59E51">
+                            <ellipse id="Oval" cx="2.9999856" cy="0.998732778" rx="1" ry="1"></ellipse>
+                            <path d="M2.019426,6.10247978 L2.019426,10.1584536 C2.019426,11.7497747 4.5689352,10.815398 5.9722632,9.57032022 C4.1810592,10.0386122 3.980574,10.1562474 3.980574,8.25199344 L3.980574,4.19601722 C3.980574,2.60469733 1.4310648,3.53906544 0.027744,4.78415056 C1.818948,4.31585978 2.019426,4.19822578 2.019426,6.10247978 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icn-chart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage@2x-Copy-16" transform="translate(-370.000000, -1304.000000)" fill="#23A79A">
+            <g id="Group-26" transform="translate(370.000000, 1304.000000)">
+                <g id="Group-25">
+                    <g id="icn-chart">
+                        <path d="M13.9901585,15.8098375 L13.9901585,2.01591301 C13.9901585,2.01591301 13.9613881,2.01194468 13.9346019,2.01194468 C6.28068017,2.01194468 0.0880969861,8.21643287 0.0880969861,15.8703546 C0.0880969861,23.5262604 6.29952975,29.6811445 13.9534515,29.6811445 C21.5954682,29.6811445 27.7979722,23.7465029 27.8178138,15.8098375 L13.9901585,15.8098375 Z" id="Path"></path>
+                        <path d="M29.8019802,13.8256711 C29.8019802,13.8256711 29.7781702,13.8504732 29.7781702,13.8375761 C29.7781702,6.21044068 23.9109903,0.0753983214 15.9743249,0.0317466616 L15.9743249,13.8246791 L29.8019802,13.8246791 L29.8019802,13.8256711 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

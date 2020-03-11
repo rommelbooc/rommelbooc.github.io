@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>ico-offer-default</title>
+    <desc>Created with Sketch.</desc>
+    <g id="States" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-58.000000, -406.000000)">
+            <g id="ico-offer-default" transform="translate(57.000000, 406.000000)">
+                <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                <g id="noun_Document_53176" transform="translate(1.000000, 0.000000)" fill="#788195" fill-rule="nonzero">
+                    <polygon id="Path" points="8.04754054 6.97930827e-15 8.04754054 4.0232973 13.7415676 4.0232973"></polygon>
+                    <path d="M6.85035135,5.22048649 L6.85035135,0 L1.45467568,0 C0.715513514,0 0.116351351,0.599162162 0.116351351,1.33832432 L0.116351351,14.2075405 C0.116351351,14.9467027 0.715513514,15.5458649 1.45467568,15.5458649 L12.5451351,15.5458649 C13.2842973,15.5458649 13.8834595,14.9467027 13.8834595,14.2075405 L13.8834595,5.22048649 L6.85035135,5.22048649 Z M10.8906757,12.5273514 L3.10932432,12.5273514 L3.10932432,11.9491892 L10.8906757,11.9491892 L10.8906757,12.5273514 Z M10.8906757,10.3276486 L3.10932432,10.3276486 L3.10932432,9.74948649 L10.8906757,9.74948649 L10.8906757,10.3276486 Z M10.8906757,8.12794595 L3.10932432,8.12794595 L3.10932432,7.54978378 L10.8906757,7.54978378 L10.8906757,8.12794595 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

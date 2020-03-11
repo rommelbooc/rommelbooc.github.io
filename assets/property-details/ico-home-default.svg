@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>ico-home-default</title>
+    <desc>Created with Sketch.</desc>
+    <g id="States" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-57.000000, -47.000000)">
+            <g id="ico-home-default" transform="translate(57.000000, 47.000000)">
+                <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                <g id="noun_House_657282" fill="#788195" fill-rule="nonzero">
+                    <path d="M7.619048,0 L3.80952381e-07,5.71428571 L3.80952381e-07,16 L5.14285752,16 L5.14285752,11.6190514 C5.14285752,10.2472419 6.24723848,9.14286095 7.619048,9.14286095 C8.99085752,9.14286095 10.0952385,10.2472419 10.0952385,11.6190514 L10.0952385,16 L15.2380949,16 L15.2380949,5.71428571 L7.619048,0 L7.619048,0 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

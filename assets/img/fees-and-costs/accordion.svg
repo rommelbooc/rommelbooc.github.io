@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>accordion</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage@2x-Copy-16" transform="translate(-1105.000000, -7447.000000)" fill="#F59E51">
+            <path d="M1119.24769,7447.97072 C1118.69668,7447.43461 1117.79881,7447.439 1117.24843,7447.9745 L1112.5,7452.59459 L1107.75157,7447.9745 C1107.19842,7447.4363 1106.29933,7447.43849 1105.75231,7447.97072 L1105.99769,7447.73198 C1105.44668,7448.2681 1105.4467,7449.13733 1106.0037,7449.67928 L1111.4963,7455.02343 C1112.05063,7455.56277 1112.9467,7455.56537 1113.5037,7455.02343 L1118.9963,7449.67928 C1119.55063,7449.13993 1119.54933,7448.26421 1119.00231,7447.73198 L1119.24769,7447.97072 Z" id="accordion" transform="translate(1112.500000, 7451.500000) scale(-1, 1) translate(-1112.500000, -7451.500000) "></path>
+        </g>
+    </g>
+</svg>

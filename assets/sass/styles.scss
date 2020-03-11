@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+@import './variables';
+@import './components/modal';
+@import './components/tabset';
+@import './components/login-page';
+@import './components/carousel';
+@import './components/_sliders';
+@import './components/icon-resize';
+@import './components/banners';
+@import './components/plaid-modal';
+@import './components/confirmation';
+@import './components/select';
+@import './components/centered-modal';
+@import './components/progress';
+@import './components/buttons';
+@import './components/donut-chart';
+@import './components/accordion';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+* {
+  font-family: $fontRoboto;
+}
+
+#chat-widget-container {
+  right: 15px !important;
+}
+
+@media (max-width: 991px) {
+  #chat-widget-container {
+    right: 5px !important;
+  }
+}
+
+.mark, mark {
+  padding: 0 0.2em;
+  background-color: #fcf8e3;
+}
+
+.sub-item > div{
+  ul{
+    list-style: none;
+    padding: 0;
+    li{
+      line-height: 21px;
+      display: flex;
+      margin-bottom: 5px;
+      strong{
+        margin-right: 10px;
+      }
+    }
+  }
+}

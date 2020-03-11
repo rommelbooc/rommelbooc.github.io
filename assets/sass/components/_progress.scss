@@ -1,0 +1,70 @@
+.progress-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw !important;
+  max-width: unset;
+  margin: 0;
+  background-image: linear-gradient(
+    -134deg,
+    #332b53 0%,
+    #463b6d 100%
+  ) !important;
+  .modal-content {
+    position: relative;
+    width: auto !important;
+    border: 0 !important;
+    background: transparent !important;
+    .btn-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      font-size: 28px;
+      color: #fff;
+      z-index: 99;
+      &:hover {
+        color: #fff;
+      }
+    }
+    .progress-wrapper {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p {
+        opacity: 0.7;
+        font-size: 18px;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+        margin-top: 15px;
+      }
+      .floating-value {
+        position: absolute;
+        top: 14px;
+        color: #fff;
+        font-size: 11px;
+      }
+      .progress-circle {
+        .floating {
+          position: absolute;
+          top: 13px;
+          left: 10px;
+          color: #fff;
+        }
+        .shadow {
+          // border-color: #fff !important;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 450px) {
+    padding: 10px;
+    > .modal-content {
+      width: 100% !important;
+    }
+  }
+}
